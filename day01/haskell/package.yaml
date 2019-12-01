@@ -1,0 +1,27 @@
+name:                aoc2019day01
+version:             0.1.0.0
+github:              "djrollins/aoc-2019"
+license:             MIT
+author:              "Daniel J. Rollins"
+maintainer:          "daniel@djrollins.com"
+copyright:           "2019 Daniel J. Rollins"
+
+
+dependencies:
+  - base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  day01:
+    main:        Main.hs
+    source-dirs: src
+
+tests:
+  day01test:
+    source-dirs: test
+    main: Spec.hs
+    dependencies:
+      - aoc2019day01
+      - hspec
