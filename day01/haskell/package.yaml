@@ -11,12 +11,15 @@ dependencies:
   - base >= 4.7 && < 5
 
 library:
-  source-dirs: src
+  source-dirs: lib
+  exposed-modules: Lib
 
 executables:
   day01:
-    main:        Main.hs
+    main:        Day01
     source-dirs: src
+    dependencies:
+      - aoc2019day01
 
 tests:
   day01test:
