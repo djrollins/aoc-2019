@@ -1,0 +1,18 @@
+name:                aoc2019day06
+version:             0.1.0.0
+github:              "djrollins/aoc-2019"
+license:             MIT
+author:              "Daniel J. Rollins"
+maintainer:          "daniel@djrollins.com"
+copyright:           "2019 Daniel J. Rollins"
+
+
+dependencies:
+  - base >= 4.7 && < 5
+  - containers
+  - split
+
+executables:
+  day06:
+    main:        Day06
+    source-dirs: src
